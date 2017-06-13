@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#Title: server.R portion of Shiny App Course Map system\n#Author: Dillan Smith\n#Date: 4/4/2017\n#All rights reserved\n\nrequire(visNetwork)\nrequire(shiny)\nrequire(igraph)\nfunction(input, output){\n  #import nodes and edges file create in textMiner\n  nodes <- read.table(\"nodes.tsv\", sep = \"\\t\", header=T, as.is=T)\n  links <- read.table(\"edges.tsv\", sep = \"\\t\", header=T, as.is=T)\n  db <- read.delim(\"database.tsv\", sep = \"\\t\", header=T, as.is = T)\n  \n  #create interactive graph\n  output$network <- renderVisNetwork({\n    \n    \n    nodes$shape <- \"dot\"  \n    nodes$shadow <- TRUE # Nodes will drop shadow\n    nodes$title <- nodes$title # Text on click\n    nodes$label <- nodes$id # Node label\n    nodes$size <- 12 # Node size\n    nodes$borderWidth <- 2 # Node border width\n    nodes$color.background <- c(\"slategrey\", \"tomato\", \"gold\", \"blueviolet\", \"burlywood\", \"burlywood4\",\n                                \"black\", \"coral2\", \"chocolate\", \"cadetblue1\", \"brown\", \"aquamarine1\", \n                                \"deepskyblue4\", \"deeppink4\", \"darkslategray4\", \"darkseagreen\", \"darksalmon\", \n                                \"deeppink\", \"darkorchid4\", \"khaki1\", \"hotpink3\", \"limegreen\", \"maroon4\", \"orangered1\",\n                                \"orange1\", \"seagreen\", \"royalblue\", \"royalblue4\", \"red\", \"red4\", \"purple\", \n                                \"slateblue4\", \"springgreen\", \"springgreen4\", \"peru\")[nodes$deptNum]\n    nodes$color.border <- \"black\"\n    nodes$color.highlight.background <- \"orange\"\n    nodes$color.highlight.border <- \"darkred\"\n    links$arrows <- \"to\"\n    visNetwork(nodes,links)%>%\n      visOptions(selectedBy = \"dept\", nodesIdSelection = TRUE)%>%\n      #get the id of the node being clicked on when clicked\n      visEvents(select = \"function(nodes) {\n                Shiny.onInputChange('current_node_id', nodes.nodes);\n                ;}\")%>%\n      #visPhysics(stabilization = FALSE)\n      #visIgraphLayout()\n      #prevent users from dragging nodes\n      visInteraction(dragNodes = FALSE)%>%\n      #visEdges(smooth = FALSE)%>%\n      #option based on check box in UI\n      visIgraphLayout(smooth = input$smooth)#%>%\n    #visLayout(hierarchical = input$hierarchy)\n    #visLayout(randomSeed = 123)\n    \n})\n  \n  #gets id of node that clicked on\n  observeEvent(input$current_node_id, {\n    visNetworkProxy(\"network\") %>%\n      visGetNodes()\n    visFocus(visNetworkProxy(\"network\"), input$current_node_id, scale = 1,  offset =  list(x = 0, y = -150))\n  })\n  \n  #the database created the tsv file from the textMiner\n  output$table <- DT::renderDataTable(db)\n  \n  #Output summary of clicked on node\n  output$nodes_summary <- renderText( {\n    \n    paste(\"Summary:\",db[match(input$current_node_id, nodes[,\"id\"])[1], \"summary\"])\n    \n  })\n  \n  #output title of clicked on node\n  output$nodes_title <- renderText({\n    paste(\"Title: \",db[match(input$current_node_id, nodes[, \"id\"])[1], \"title\"])\n  })\n  \n  #output id of clicked on node\n  output$nodes_id <- renderText({\n    paste(\"ID:\",db[match(input$current_node_id, nodes[, \"id\"])[1], \"id\"])\n  })\n  \n  #output$nodes_name <- renderText(paste(db[match(input$current_node_id, nodes[, \"id\"])[1], \"id\"],\n  #db[match(input$current_node_id, nodes[, \"id\"])[1], \"title\"]\n  #))\n  \n  \n  \n  \n  \n  \n  \n  }",
+    "created" : 1497317054560.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2501812024",
+    "id" : "E8B334CC",
+    "lastKnownWriteTime" : 1497317077,
+    "last_content_update" : 1497317077700,
+    "path" : "~/undergradThesis/courseMap/server.R",
+    "project_path" : "courseMap/server.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

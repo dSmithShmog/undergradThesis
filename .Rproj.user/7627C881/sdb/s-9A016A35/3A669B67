@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#Title: ui.R of Shiny App Course Map System\n#Author: Dillan Smith\n#Date 4/4/2017\n#All rights reserved\nrequire(shiny)\nrequire(visNetwork)\nrequire(igraph)\n#full page\nnavbarPage(\"Course Map\", id=\"nav\",\n           \n           #tutorial tab with embedded pdf\n           tabPanel(\"Tutorial\",\n                    \n                    tabPanel(\"Reference\", \n                             tags$iframe(style=\"height:1000px; width:100%; scrolling=yes\", \n                                         src=\"map.pdf\"))\n           ),\n           #second tab with graph \n           tabPanel(\"Interactive Map\",\n                    sidebarLayout(\n                      sidebarPanel(\n                        #checkboxInput(\"hierarchy\", label = \"Hierarchichal Layout\", value = FALSE),\n                        checkboxInput(\"smooth\", label = \"Smooth Edges\", value = TRUE),\n                        textOutput(\"nodes_id\"),\n                        textOutput('nodes_title'),\n                        textOutput(\"nodes_summary\"),\n                        actionButton(\"getNodes\", \"Nodes\")\n                        \n                        \n                      ),\n                      #the graph\n                      mainPanel(\n                        visNetworkOutput(\"network\", height = \"1000px\")\n                      )\n                    )\n                    \n                    \n                    \n           ),\n           #final tab with the database in it\n           tabPanel(\"Data Explorer\",\n                    fluidRow(\n                      DT::dataTableOutput(\"table\")\n                    )\n                    \n                    \n                    \n           )\n           \n           \n           \n)",
+    "created" : 1497317054351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1551179002",
+    "id" : "3A669B67",
+    "lastKnownWriteTime" : 1497317077,
+    "last_content_update" : 1497317077641,
+    "path" : "~/undergradThesis/courseMap/ui.R",
+    "project_path" : "courseMap/ui.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

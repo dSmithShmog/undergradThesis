@@ -1,0 +1,197 @@
+id, dept, number, title, prerequisites, corequisites, credits, distribution
+BIO045,BIO,045,Biology of the Algae,NA,NA,NA,NA
+BIO078,BIO,078,The Biology of Behavior,NA,NA,NA,NA
+BIO082,BIO,082,Insects and Humans,NA,NA,NA,NA
+BIO220,BIO,220,Organismal Physiology and Ecology,CHEM 110 ,NA,NA,NA
+BIO221,BIO,221,Genetics, Development and Evolution,BIO 220 ,NA,NA,NA
+BIO300,BIO,300,Introduction to Bioinformatics (also listed as CMPSC 300),NA,NA,NA,NA
+BIO301,BIO,301,Physiological Ecology,BIO 220  BIO 221  and FSBIO 201 ,NA,NA,NA
+BIO305,BIO,305,Molecular Biology,BIO 220  BIO 221  and FSBIO 201 or FSCHE 201 ,NA,NA,NA
+BIO310,BIO,310,Microbiology,BIO 220  BIO 221  and FSBIO 201 or FSCHE 201 ,NA,NA,NA
+BIO320,BIO,320,Cell Biology,BIO 220  BIO 221  CHEM 231  and FSBIO 201 or FSCHE 201 ,NA,NA,NA
+BIO321,BIO,321,Epidemiology (also listed as GHS 321),GHS 130 or permission of the instructor ,NA,NA,NA
+BIO325,BIO,325,Genetics,BIO 220  BIO 221  and FSBIO 201 or FSCHE 201 ,NA,NA,NA
+BIO330,BIO,330,Population and Community Ecology,BIO 220  BIO 221  FSBIO 201  and either MATH 158 or MATH 160 ,NA,NA,NA
+BIO331,BIO,331,Paleobiology (also listed as GEO 331),BIO 220 and FSBIO 201  or GEO 120 and FSGEO 201 ,NA,NA,NA
+BIO332,BIO,332,Forest Ecosystems and Management (also listed as ENVSC 332),ENVSC 110  ENVSC210  or a labbased course in the natural science division ,NA,NA,NA
+BIO335,BIO,335,Conservation Biology (also listed as ENVSC 335),BIO 220  BIO 221  and FSBIO 201 or ENVSC 110 ,NA,NA,NA
+BIO340,BIO,340,Evolution,BIO 220  BIO 221  and FSBIO 201 ,NA,NA,NA
+BIO344,BIO,344,Stream Ecology (also listed as ENVSC 344),BIO 220  BIO 221  and FSBIO 201 or ENVSC 110 ,NA,NA,NA
+BIO346,BIO,346,Wetlands (also listed as ENVSC 346),BIO 220  BIO 221  and FSBIO 201 or ENVSC 110 ,NA,NA,NA
+BIO350,BIO,350,Immunology,BIO 220 ,NA,NA,NA
+BIO360,BIO,360,Plant Physiology,BIO 220  BIO 221  and FSBIO 201 or FSCHE 201  pre or corequisite  CHEM 231 ,NA,NA,NA
+BIO365,BIO,365,Comparative Anatomy,BIO 220  BIO 221  and FSBIO 201 ,NA,NA,NA
+BIO370,BIO,370,Insect Ecology and the Environment (also listed as ENVSC 370),NA,NA,NA,NA
+BIO375,BIO,375,Medical Entomology,BIO 220 ,NA,NA,NA
+BIO380,BIO,380,Animal Physiology,BIO 220  BIO 221  and FSBIO 201 ,NA,NA,NA
+BIO385,BIO,385,Biostatistics,MATH 158 or MATH 160 ,NA,NA,NA
+BIO523,BIO,523,Internship in Conservation Biology with the Erie National Wildlife Refuge (also listed as ENVSC 523),BIO 220 ,NA,Two to four semester hours ,NA
+BIO527,BIO,527,Internship in Fisheries Biology with the Pennsylvania Fish Commission (also listed as ENVSC 527),BIO 220 ,NA,Two to four semester hours ,NA
+BIO580,BIO,580,Junior Seminar,NA,NA,NA,NA
+BIO590,BIO,590,Independent Study,NA,NA,One to four semester hours ,NA
+BIO600,BIO,600,Senior Project and Seminar I,BIO 580 ,NA,Two semester hours ,NA
+BIO610,BIO,610,Senior Project and Seminar II,BIO 600 ,NA,Four semester hours ,NA
+COMRT120,COMRT,120,Introduction to Critical Media Studies,NA,NA,NA,NA
+COMRT145,COMRT,145,Foundations of Rhetoric and Public Communication,NA,NA,NA,NA
+COMRT150,COMRT,150,Acting I: Fundamentals,NA,NA,Distribution Requirements : HE , ME ,NA
+COMRT151,COMRT,151,Theatre Practicum: Performance,COMRT 150 and permission of the instructor ,NA,NA,NA
+COMRT170,COMRT,170,Oral Interpretation,NA,NA,NA,NA
+COMRT181,COMRT,181,Theatre Practicum: Production,Communications Arts 180 and permission of the instructor ,NA,NA,NA
+COMRT200,COMRT,200,Fundamentals of Play Direction,COMRT 150 or permission of instructor ,NA,NA,NA
+COMRT202,COMRT,202,Modes of Film and Video Production,NA,NA,NA,NA
+COMRT211,COMRT,211,Topics in Scenic Production,COMRT 180 or permission of the instructor ,NA,NA,NA
+COMRT212,COMRT,212,Topics in Lighting and Sound Production,COMRT 180 or permission of the instructor ,NA,NA,NA
+COMRT215,COMRT,215,Voice and Movement for the Actor,COMRT 150 or permission of the instructor ,NA,NA,NA
+COMRT220,COMRT,220,Media Criticism--Critical Approaches,NA,NA,NA,NA
+COMRT225,COMRT,225,Text and Performance,COMRT 130 or permission of instructor ,NA,NA,NA
+COMRT230,COMRT,230,Production Design I,NA,NA,NA,NA
+COMRT235,COMRT,235,Advanced Public Speaking,NA,NA,NA,NA
+COMRT240,COMRT,240,Textual Analysis,NA,NA,NA,NA
+COMRT251,COMRT,251,Gender in Public Communication,NA,NA,NA,NA
+COMRT256,COMRT,256,Power, Politics, and Communication,NA,NA,NA,NA
+COMRT261,COMRT,261,Media Institutions,NA,NA,NA,NA
+COMRT270,COMRT,270,Acting II: Scene Study,COMRT 150  or permission of the instructor ,NA,Prerequisite : COMRT 150 , or permission of the instructor ,NA
+COMRT276,COMRT,276,Media, Theory, and Practice,NA,NA,NA,NA
+COMRT277,COMRT,277,Video Activism: History, Theory, Politics and Practice,permission of the instructor ,NA,NA,NA
+COMRT280,COMRT,280,Stage and Production Management,COMRT 180 or permission of the instructor ,NA,NA,NA
+COMRT281,COMRT,281,Theatre Practicum: Management,COMRT 280 and permission of the instructor ,NA,NA,NA
+COMRT285,COMRT,285,Visual Production I,NA,NA,NA,NA
+COMRT300,COMRT,300,Visual Production II,COMRT 202 and COMRT 285  or permission of instructor ,NA,NA,NA
+COMRT303,COMRT,303,Acting and Directing for the Camera,COMRT 150 or COMRT 285  or permission of the instructor ,NA,NA,NA
+COMRT305,COMRT,305,Advanced Studio Production,COMRT 285 or permission of instructor ,NA,NA,NA
+COMRT325,COMRT,325,Theatre History II: The Revolutionary Stage,COMRT 130 or permission of instructor ,NA,NA,NA
+COMRT330,COMRT,330,Production Design II,COMRT 180 and COMRT 230  or permission of the instructor ,NA,NA,NA
+COMRT331,COMRT,331,Bodies and Health in Public Communication,COMRT 220 or COMRT 240  or permission of the instructor ,NA,NA,NA
+COMRT336,COMRT,336,The Visual in Public Communication,NA,NA,NA,NA
+COMRT340,COMRT,340,Digital and Screen Cultures,COMRT 220 or COMRT 240  or permission of the instructor ,NA,NA,NA
+COMRT351,COMRT,351,Media and Identity,COMRT 220 or COMRT 240  or permission of the instructor ,NA,NA,NA
+COMRT360,COMRT,360,Rhetoric and Civic Engagement,COMRT 120 or COMRT 145  or permission of the instructor ,NA,NA,NA
+COMRT375,COMRT,375,Documentary Tradition,NA,NA,NA,NA
+COMRT376,COMRT,376,Media Consumption,COMRT 120 or COMRT 145  or permission of the instructor ,NA,NA,NA
+COMRT380,COMRT,380,Acting III: Styles in Performance,COMRT 150 ,NA,Prerequisite : COMRT 150 ,NA
+COMRT425,COMRT,425,Advanced Play Direction,COMRT 200 ,NA,NA,NA
+COMRT430,COMRT,430,Advanced Topics in Theatre,COMRT 130 and COMRT 225 ,NA,NA,NA
+COMRT460,COMRT,460,Media and Cultural Politics,a Communication Arts course at the 200 level  or permission of the instructor ,NA,NA,NA
+COMRT465,COMRT,465,Media and Cultural Theory,COMRT 220  or permission of the instructor ,NA,NA,NA
+COMRT471,COMRT,471,Theories of Identity and Representation,COMRT 220 or COMRT 240  or permission of the instructor ,NA,NA,NA
+COMRT500,COMRT,500,Internships,NA,NA,Two or four semester hours ,NA
+COMRT581,COMRT,581,Communication Junior Seminar,NA,NA,NA,NA
+COMRT582,COMRT,582,Theatre Junior Seminar,NA,NA,NA,NA
+COMRT583,COMRT,583,Production Junior Seminar,COMRT 285 and COMRT 300 ,NA,NA,NA
+COMRT590,COMRT,590,Independent Study,NA,NA,Two or four semester hours ,NA
+COMRT600,COMRT,600,Comprehensive Seminar,NA,NA,one semester hour ,NA
+COMRT610,COMRT,610,Communication Senior Project,COMRT 581 or COMRT 583  and COMRT 600 ,NA,NA,NA
+COMRT611,COMRT,611,Theatre Senior Project,COMRT 582 and 600 ,NA,NA,NA
+ENVSC110,ENVSC,110,Introduction to Environmental Science,NA,NA,NA,NA
+ENVSC210,ENVSC,210,Environmental Research Methods,ENVSC 110 ,NA,NA,NA
+ENVSC230,ENVSC,230,Soil to Plate: World Food and Agriculture,ENVSC 110 and permission of the instructor ,NA,NA,NA
+ENVSC250,ENVSC,250,Environmental Education,ENVSC 110 is recommended but not required ,NA,NA,NA
+ENVSC285,ENVSC,285,Quantitative Sustainability,ENVSC 110 ,NA,NA,NA
+ENVSC305,ENVSC,305,Environmental Spatial Analysis,ENVSC 110 or permission of the instructor ,NA,NA,NA
+ENVSC315,ENVSC,315,Environmental Remote Sensing,ENVSC 210 and permission of the instructor ,NA,NA,NA
+ENVSC321,ENVSC,321,Ecosystems, Birds, and People,NA,NA,NA,NA
+ENVSC332,ENVSC,332,Forest Ecosystems and Management (also listed as BIO 332),ENVSC 110  ENVSC 210 or a labbased course in the Natural Science division ,NA,NA,NA
+ENVSC335,ENVSC,335,Conservation Biology (also listed as BIO 335),ENVSC 110  or BIO 220 and BIO 221 and FSBIO 201 ,NA,NA,NA
+ENVSC340,ENVSC,340,World Regional Geography,NA,NA,NA,NA
+ENVSC344,ENVSC,344,Stream Ecology (also listed as BIO 344),ENVSC 110  or BIO 220 and BIO 221 and FSBIO 201 ,NA,NA,NA
+ENVSC346,ENVSC,346,Wetlands (also listed as BIO 346),ENVSC 110  or BIO 220 and BIO 221 and FSBIO 201 ,NA,NA,NA
+ENVSC350,ENVSC,350,Ecological Economics,ENVSC 110 and permission of the instructor ,NA,NA,NA
+ENVSC352,ENVSC,352,Environmental Justice,NA,NA,NA,NA
+ENVSC360,ENVSC,360,Religion and Ecology (also listed as RELST 360),ENVSC 110 or at least one course in Religious Studies  RELST  ,NA,NA,NA
+ENVSC370,ENVSC,370,Insect Ecology and the Environment (also listed as BIO 370),BIO 220 or ENVSC 210 or permission of the instructor ,NA,NA,NA
+ENVSC380,ENVSC,380,Climate and Energy Policy,ENVSC 110 or permission of the instructor ,NA,NA,NA
+ENVSC385,ENVSC,385,Introduction to Sustainable Energy,ENVSC 110 ,NA,NA,NA
+ENVSC415,ENVSC,415,Environmental Health,JuniorSenior standing or permission of instructor ,NA,NA,NA
+ENVSC425,ENVSC,425,Global Health Transitions,junior or senior standing and permission of the instructor ,NA,NA,NA
+ENVSC427,ENVSC,427,Culture, Power, and the Environment,ENVSC 110 or FSGHS 201 or permission of the instructor ,NA,NA,NA
+ENVSC518,ENVSC,518,Internship in Environmental Regulation with Pennsylvania Department of Environmental Protection,ENVSC 110 and permission of instructor ,NA,NA,NA
+ENVSC519,ENVSC,519,Internship in Watershed Management,ENVSC 110 and permission of the instructor ,NA,Two to four semester hours ,NA
+ENVSC520,ENVSC,520,Internship in Wildlife Management,ENVSC 110 or BIO 220 and permission of the instructor ,NA,Two to four semester hours ,NA
+ENVSC521,ENVSC,521,Internship in Environmental Geology with Moody and Associates (also listed as GEO 521),A minor or major in Geology and completion of GEO 310 and GEO 400,NA,One to four semester hours ,NA
+ENVSC522,ENVSC,522,Internship in Environmental Education (also listed as GEO 522),ENVSC 110 and approval of the supervisor at the internship site ,NA,One to four semester hours ,NA
+ENVSC523,ENVSC,523,Internship in Conservation Biology with Erie National Wildlife Refuge (also listed as BIO 523),BIO 220 ,NA,Two to four semester hours ,NA
+ENVSC524,ENVSC,524,Internship in Land and Water Conservation,permission of the instructor and ENVSC 110 and one of BIO 332ENVSC 332  BIO 344ENVSC 344  or BIO 346ENVSC 346 ,NA,Two to four semester hours ,NA
+ENVSC525,ENVSC,525,Internship with the Crawford County Planning Commission,Approval of the liaison and the Planning Commissioner  POLSC 341 or POLSC 345  and ECON 340 or ECON 360 or ECON 585 are recommended The student must develop a project proposal which is acceptable to both the Planning Commissioner and the liaison ,NA,NA,NA
+ENVSC526,ENVSC,526,Internship in Sustainable Resource Development and Management,permission of the instructor and ENVSC 110 and one of ENVSC 230  BIO 332ENVSC 322  or ENVSC 380 ,NA,Two to four semester hours ,NA
+ENVSC527,ENVSC,527,Internship in Fisheries Biology with the Pennsylvania Fish Commission (also listed as BIO 527),BIO 220 ,NA,Two to four semester hours ,NA
+ENVSC528,ENVSC,528,Internship in Industrial Ecology,ENVSC 110 and permission of the instructor ,NA,Two to four semester hours ,NA
+ENVSC585,ENVSC,585,Junior Seminar: Sustainable Development,Declared major in Environmental Science or Environmental Studies or permission of instructor ,NA,NA,NA
+ENVSC590,ENVSC,590,Independent Study,Permission of the instructor ,NA,One to four semester credit hours ,NA
+ENVSC600,ENVSC,600,Senior Project I,ENVSC 585,NA,Four semester hours ,NA
+ENVSC610,ENVSC,610,Senior Project II,ENVSC 600,NA,Four semester hours ,NA
+PSYCH102,PSYCH,102,Sex and Gender,NA,NA,NA,NA
+PSYCH103,PSYCH,103,Drugs and Society,NA,NA,NA,NA
+PSYCH106,PSYCH,106,Educational Psychology,NA,NA,NA,NA
+PSYCH110,PSYCH,110,Foundations of Psychology,NA,NA,NA,NA
+PSYCH150,PSYCH,150,Sensation and Perception,NA,NA,NA,NA
+PSYCH152,PSYCH,152,Behavioral Psychology,NA,NA,NA,NA
+PSYCH154,PSYCH,154,Physiological Psychology,NA,PSYCH 155 ,NA,NA
+PSYCH155,PSYCH,155,Physiological Psychology Lab,NA,PSYCH 154,Two semester hours ,NA
+PSYCH160,PSYCH,160,Life Span Developmental Psychology,NA,NA,NA,NA
+PSYCH162,PSYCH,162,Human Social Behavior,NA,NA,NA,NA
+PSYCH164,PSYCH,164,Cognitive Psychology,NA,NA,NA,NA
+PSYCH170,PSYCH,170,Abnormal Behavior,NA,NA,NA,NA
+PSYCH172,PSYCH,172,Health Psychology,NA,NA,NA,NA
+PSYCH176,PSYCH,176,Personality,NA,NA,NA,NA
+PSYCH178,PSYCH,178,Positive Psychology,NA,NA,NA,NA
+PSYCH206,PSYCH,206,Research Methods in Psychology,A core course in Psychology ,NA,NA,NA
+PSYCH207,PSYCH,207,Statistical Methods in Psychology,PSYCH 206  completed with a grade of C or better ,NA,NA,NA
+PSYCH350,PSYCH,350,Clinical Psychology,PSYCH 206  and PSYCH 170 or PSYCH 172 ,NA,NA,NA
+PSYCH360,PSYCH,360,Health and Psychophysiology,PSYCH 206  and PSYCH 170 or PSYCH 172 ,PSYCH 365 ,NA,NA
+PSYCH365,PSYCH,365,Health and Psychophysiology Lab,PSYCH 206  and PSYCH 170 or PSYCH 172 ,NA,Two semester hours ,NA
+PSYCH370,PSYCH,370,Tests and Measurement,PSYCH 206 and any core course in Psychology ,NA,NA,NA
+PSYCH375,PSYCH,375,Community Psychology,NA,NA,NA,NA
+PSYCH380,PSYCH,380,Behavior Modification,NA,NA,NA,NA
+PSYCH400,PSYCH,400,Developmental Psychopathology,PSYCH 206  and PSYCH 160 or PSYCH 170 ,NA,NA,NA
+PSYCH401,PSYCH,401,Foundational Helping Skills: Research and Practice,JuniorSenior standing  a declared Psychology major  and permission of the instructor ,NA,NA,NA
+PSYCH405,PSYCH,405,Autism Spectrum Disorders,PSYCH 206 and one of PSYCH 160  PSYCH 162  PSYCH 164  or PSYCH 170 ,NA,NA,NA
+PSYCH410,PSYCH,410,Cognitive Neuropsychology,PSYCH 206  and PSYCH 154 or BIO 380 ,NA,NA,NA
+PSYCH411,PSYCH,411,Systems Neuroscience,PSYCH 206 and one of the following  PSYCH 154  BIO 380 or NEURO 110 ,NA,NA,NA
+PSYCH412,PSYCH,412,Verbal Behavior,NA,NA,NA,NA
+PSYCH415,PSYCH,415,Behavioral Pharmacology,PSYCH 206  and PSYCH 152  PSYCH 154  or BIO 380 ,NA,NA,NA
+PSYCH416,PSYCH,416,Experimental Analysis of Behavior,PSYCH 206  and PSYCH 152 or PSYCH 415 ,NA,NA,NA
+PSYCH423,PSYCH,423,Gender and Families,one core course in Psychology from the Human Processes  160s  category  or permission of the instructor ,NA,NA,NA
+PSYCH426,PSYCH,426,Aging,PSYCH 206 and one other course in Psychology ,NA,NA,NA
+PSYCH440,PSYCH,440,Psychology of Language,PSYCH 206 and PSYCH 160  PSYCH 162 or PSYCH 164 ,NA,NA,NA
+PSYCH441,PSYCH,441,Human Memory Processes,PSYCH 206  and PSYCH 164 or PSYCH 150 ,NA,NA,NA
+PSYCH450,PSYCH,450,Contemporary Social Issues,One core course in Psychology ,NA,NA,NA
+PSYCH451,PSYCH,451,Psychology of the African-American Experience,PSYCH 110  or one core course in Psychology from either the Human Processes  160s  or Individual Differences  170s  category  or permission of the instructor ,NA,NA,NA
+PSYCH452,PSYCH,452,Psychology of Prejudice,PSYCH 110  or one core course in Psychology from either the Human Processes  160s  or Individual Differences  170s  category  or permission of the instructor ,NA,NA,NA
+PSYCH453,PSYCH,453,Psychology of Women,One course in Psychology or Women s Gender and Sexuality Studies  WGSS  ,NA,NA,NA
+PSYCH455,PSYCH,455,History of Psychological Theories,One core course in Psychology ,NA,NA,NA
+PSYCH461,PSYCH,461,Bilingualism and Second Language Acquisition,PSYCH 110  or one core course in Psychology from either the Human Processes  160s  or Individual Differences  170s  category  or permission of the instructor ,NA,NA,NA
+PSYCH464,PSYCH,464,Psychology of Intergroup Conflict and Violence,Permission of the instructor  or PSYCH 206 and one of PSYCH 160  PSYCH 162  or PSYCH 164 ,NA,NA,NA
+PSYCH475,PSYCH,475,Psychology and Religion (also listed as RELST 475),One course each in Psychology and Religious Studies ,NA,NA,NA
+PSYCH480,PSYCH,480,Food and Hunger in Society,One core course in Psychology ,NA,NA,NA
+PSYCH485,PSYCH,485,The Analysis of Data,permission of the instructor and one of the following courses  PSYCH 207  BIO 385  ECON 202  ECON 203  MATH 345  MATH 346  or POLSC 489 ,NA,NA,NA
+PSYCH501,PSYCH,501,Internship at CHAPS,PSYCH 170 and approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH502,PSYCH,502,Internship at the State Correctional Institution, Cambridge Springs,PSYCH 170 and the approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH503,PSYCH,503,Internship at the Meadville Medical Center, Pain Management Center,PSYCH 172 and the approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH505,PSYCH,505,Internship in Psychological Research,PSYCH 206 and PSYCH 207 andor the approval of both the faculty liaison person and the faculty member in charge of the project ,NA,Two or four semester hours ,NA
+PSYCH506,PSYCH,506,Internship in Surveying and Data Analysis,PSYCH 206 and PSYCH 207 andor the approval of both the faculty liaison person and the faculty member in charge of the project ,NA,NA,NA
+PSYCH520,PSYCH,520,Internship at Bethesda Youth Services, Meadville,PSYCH 160 or PSYCH 170 and the approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH522,PSYCH,522,Internship in Child Care,PSYCH 160 and the approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH525,PSYCH,525,Internship with Active Aging,PSYCH 160 and the approval of the liaison ,PSYCH 540 ,Two semester hours ,NA
+PSYCH527,PSYCH,527,Internship with Wesbury United Methodist Retirement Community,PSYCH 160 and approval of the liaison ,PSYCH 540 ,Two credit hours ,NA
+PSYCH530,PSYCH,530,Internship in the Teaching of Psychology,Permission of liaison and supervising faculty member ,NA,only One to four semester hours ,NA
+PSYCH540,PSYCH,540,Internship Seminar,NA,Enrollment in any Psychology Department internship except PSYCH 505 , PSYCH 506 or PSYCH 530 ,Two semester hours ,NA
+PSYCH550,PSYCH,550,Junior Seminar: Clinical Disorders,PSYCH 206  PSYCH 207  and one of PSYCH 170  PSYCH 172  PSYCH 176 or PSYCH 178 ,NA,NA,NA
+PSYCH553,PSYCH,553,Junior Seminar: Behavioral Research on Alcohol (also listed as GHS 553),PSYCH 206 and PSYCH 207 and one of PSYCH 170  PSYCH 172  PSYCH 176  or PSYCH 178  or GHS 130 and one of BIOGHS 321 or BIO 385 ,NA,NA,NA
+PSYCH554,PSYCH,554,Junior Seminar: Developmental Issues of Adolescence and Young Adulthood,PSYCH 206  PSYCH 207  and one of PSYCH 160  PSYCH 162  or PSYCH 164 ,NA,NA,NA
+PSYCH555,PSYCH,555,Junior Seminar: Behavior, Cognition, and Health,PSYCH 206  PSYCH 207  and one of PSYCH 170  PSYCH 172  PSYCH 176 or PSYCH 178 ,NA,NA,NA
+PSYCH557,PSYCH,557,Junior Seminar: Behavioral Mechanisms of Drug Action,PSYCH 206  PSYCH 207  and one of PSYCH 150  PSYCH 152 or PSYCH 154 ,NA,NA,NA
+PSYCH558,PSYCH,558,Junior Seminar: Behavioral Neuroscience,PSYCH 206  PSYCH 207  and one of PSYCH 150  PSYCH 152 or PSYCH 154 ,NA,NA,NA
+PSYCH559,PSYCH,559,Junior Seminar: Clinical Neuropsychology,PSYCH 206  PSYCH 207  and one of PSYCH 154PSYCH 155  PSYCH 170  PSYCH 172  or NEURO 110 ,NA,NA,NA
+PSYCH578,PSYCH,578,Junior Seminar: Well-Being,PSYCH 206  PSYCH 207  and one of PSYCH 170  PSYCH 172  PSYCH 176  or PSYCH 178 ,NA,NA,NA
+PSYCH579,PSYCH,579,Junior Seminar: The Psychology of Social Class,PSYCH 162  PSYCH 206  and PSYCH 207 ,NA,NA,NA
+PSYCH581,PSYCH,581,Junior Seminar: The Psychology of (Im)morality,PSYCH 206  PSYCH 207  and one of PSYCH 160  PSYCH 162  or PSYCH 164 ,NA,NA,NA
+PSYCH582,PSYCH,582,Junior Seminar: Memory Processes,PSYCH 206  PSYCH 207  and PSYCH 160  PSYCH 162  or PSYCH 164 ,NA,NA,NA
+PSYCH584,PSYCH,584,Junior Seminar: Language Processes,PSYCH 206  PSYCH 207  and one of PSYCH 160  PSYCH 162 or PSYCH 164 ,NA,NA,NA
+PSYCH590,PSYCH,590,Independent Study,NA,NA,NA,NA
+PSYCH591,PSYCH,591,Group Study,NA,NA,NA,NA
+PSYCH592,PSYCH,592,Teaching in the Elementary or Secondary Schools,NA,NA,NA,NA
+PSYCH593,PSYCH,593,Peer Mentoring,NA,NA,NA,NA
+PSYCH600,PSYCH,600,Senior Project,NA,NA,NA,NA
+PSYCH610,PSYCH,610,Senior Project,NA,NA,NA,NA
+PSYCH620,PSYCH,620,Senior Project,NA,NA,NA,NA
+PSYCH630,PSYCH,630,Senior Project Seminar,NA,NA,NA,NA
